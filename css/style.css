@@ -1,0 +1,127 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14.6px;
+    line-height: 1.5;
+    color: #232527;
+}
+img
+{
+    display: flex;
+}
+.title
+{
+    padding-bottom: 4rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #758091;
+}
+.grid-container
+{
+    height: 80vh;
+    width: 80vw;    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(35, 1fr);    
+    gap: 1.5rem 1.8rem;
+}
+.img-1
+{
+    width: 100%;
+}
+.item-title
+{
+    color: #293238;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.item-primary
+{
+    font-size: 11px;
+    color: #7D7A7A;
+}
+.item-description
+{
+    margin-bottom: 7px;
+}
+.img-3
+{
+    position: relative;
+    top: 20px;
+    left: 25px;
+}
+.item-22{
+  margin-left: -65px;
+}
+
+
+
+
+
+
+.item
+{
+    border: 1px solid #E9ECF2;
+    filter: drop-shadow(0px 3.84083px 20.1644px rgba(157, 175, 181, 0.25));
+    border-radius: 15.3633px;
+}
+.item-info
+{
+    padding:1rem 2.8rem;
+}
+.item-1
+{
+    grid-column: 1/2;
+    grid-row: 1/20;
+}
+.item-2
+{
+    display: flex;
+    grid-column: 2/4;
+    grid-row: 1/13;
+}
+.item-3
+{
+     display: flex;
+     grid-column: 4/5;
+     grid-row: 1/12;
+}
+.item-4
+{
+    display: flex;
+    grid-row: 13/21;
+    grid-column: 2/4;
+}
+.item-5
+{
+     display: flex;
+     grid-column: 4/5;
+     grid-row: 12/23;
+}
+.item-6
+{
+    display: flex;
+    grid-column: 2/4;
+    grid-row: 21/29;
+}
+.item-7
+{
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 20/30;
+}

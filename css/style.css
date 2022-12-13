@@ -43,7 +43,7 @@ img
 .img-1
 {
     width: 100%;
-}
+}   
 .item-title
 {
     color: #293238;
@@ -68,12 +68,6 @@ img
 .item-22{
   margin-left: -65px;
 }
-
-
-
-
-
-
 .item
 {
     border: 1px solid #E9ECF2;
@@ -82,7 +76,7 @@ img
 }
 .item-info
 {
-    padding:1rem 2.8rem;
+    padding: 8px 2.8rem;
 }
 .item-1
 {

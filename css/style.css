@@ -66,7 +66,7 @@ img
     left: 25px;
 }
 .item-22{
-  margin-left: -65px;
+    margin-left: -50px;
 }
 .item
 {
@@ -76,12 +76,12 @@ img
 }
 .item-info
 {
-    padding: 8px 2.8rem;
+    padding: 8px 2rem;
 }
 .item-1
 {
     grid-column: 1/2;
-    grid-row: 1/20;
+    grid-row: 1/20; 
 }
 .item-2
 {
